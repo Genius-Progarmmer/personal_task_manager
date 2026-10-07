@@ -1,5 +1,7 @@
 name = input("what is your name? ")
 print("Welcome " + name)
-
-user_tasks = input("put a task: ")
-print("your first task is " + user_tasks)
+tasks = []
+while True:
+    user_tasks = input("put a task: ")
+    tasks.append(user_tasks)
+    print(f"your tasks are {tasks}")
