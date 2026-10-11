@@ -41,12 +41,12 @@ A simple task manager built with Python.
 ```text
 personal_task_manager/
 
+│   main.py
+│   tasks.py
+│   requirements.txt
 │   .env.example
 │   .gitignore
-│   main.py
 │   README.md
-│   requirements.txt
-│   tasks.py
 ├───pictures
 │       start.png
 │       putting_tasks.png
@@ -177,7 +177,7 @@ put a task: done
 * [x] Display the current task list
 * [x] Save tasks to a text file
 * [x] Add admin password verification
-* [ ] Load previously saved tasks when the program starts
+* [x] Add priority level for tasks
 
 ## Contributing
 
